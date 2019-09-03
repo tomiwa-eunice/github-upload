@@ -1,3 +1,0 @@
-write something
-write something else
-I append this line of text

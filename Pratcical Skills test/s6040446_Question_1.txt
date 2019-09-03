@@ -1,0 +1,24 @@
+Question 1a
+Quality of the digital address book script
+- the dictionary method created is efficient enough to create a good address book
+- the phone numbers are stored using strings which is very good.
+using a list for the values in the dictionary is very good since a list is mutable and
+this allows the address book to be updated later on.
+
+
+Question 1b
+Additional script for updating the address book
+addressbook = {}
+kate = ["0506717171", "Hengelosestraat99"]
+clara = ["Langestraat 25", "clara@itc.nl"]
+amy = ["0347252525", "amy@itc.nl"]
+addressbook["Kate"] = kate
+addressbook["Clara"] = clara
+addressbook["Amy"] = amy
+addressbook["Kate"] = ["0506717171", "Hengelosestraat99", "kate@itc.nl"]
+addressbook["Clara"] = ["Langestraat 25", "clara@itc.nl", "0628363636"]
+addressbook["Amy"] = ["0347252525", "amy@itc.nl", "Walstraat 90"]
+
+
+Question 1c
+Script for saving the address book in a json file

@@ -1,0 +1,130 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+    "data": {
+        "values": [
+            {
+                "Name": "Almelo",
+                "No_inhabit": 72730
+            },
+            {
+                "Name": "Borne",
+                "No_inhabit": 21770
+            },
+            {
+                "Name": "Dalfsen",
+                "No_inhabit": 27570
+            },
+            {
+                "Name": "Deventer",
+                "No_inhabit": 98580
+            },
+            {
+                "Name": "Enschede",
+                "No_inhabit": 158625
+            },
+            {
+                "Name": "Haaksbergen",
+                "No_inhabit": 24320
+            },
+            {
+                "Name": "Hardenberg",
+                "No_inhabit": 59585
+            },
+            {
+                "Name": "Hellendoorn",
+                "No_inhabit": 35740
+            },
+            {
+                "Name": "Hengelo",
+                "No_inhabit": 80950
+            },
+            {
+                "Name": "Kampen",
+                "No_inhabit": 50925
+            },
+            {
+                "Name": "Losser",
+                "No_inhabit": 22555
+            },
+            {
+                "Name": "Oldenzaal",
+                "No_inhabit": 32200
+            },
+            {
+                "Name": "Ommen",
+                "No_inhabit": 17315
+            },
+            {
+                "Name": "Raalte",
+                "No_inhabit": 36485
+            },
+            {
+                "Name": "Staphorst",
+                "No_inhabit": 16275
+            },
+            {
+                "Name": "Tubbergen",
+                "No_inhabit": 21170
+            },
+            {
+                "Name": "Wierden",
+                "No_inhabit": 23805
+            },
+            {
+                "Name": "Zwolle",
+                "No_inhabit": 122560
+            },
+            {
+                "Name": "Twenterand",
+                "No_inhabit": 33970
+            },
+            {
+                "Name": "Steenwijkerland",
+                "No_inhabit": 43435
+            },
+            {
+                "Name": "Hof van Twente",
+                "No_inhabit": 35215
+            },
+            {
+                "Name": "Rijssen-Holten",
+                "No_inhabit": 37605
+            },
+            {
+                "Name": "Olst-Wijhe",
+                "No_inhabit": 17750
+            },
+            {
+                "Name": "Dinkelland",
+                "No_inhabit": 26055
+            },
+            {
+                "Name": "Zwartewaterland",
+                "No_inhabit": 22140
+            }
+        ]
+    },
+    "description": "A simple bar chart with embedded data.",
+    "encoding": {
+        "color": {
+            "field": "No_inhabit",
+            "scale": {
+                "domain": [
+                    1,
+                    150000
+                ],
+                "scheme": "yelloworangered"
+            },
+            "type": "quantitative"
+        },
+        "x": {
+            "field": "Name",
+            "type": "ordinal"
+        },
+        "y": {
+            "field": "No_inhabit",
+            "type": "quantitative"
+        }
+    },
+    "mark": "bar"
+}
